@@ -1,0 +1,201 @@
+.footer {
+  margin-top: 30px;
+  max-width: 1240px;
+  height: 700px;
+}
+
+.wrapper {
+  justify-content: space-between;
+  display: flex;
+  height: 40px;
+}
+
+.specialOfferText {
+  height: 100px;
+  line-height: 30px;
+  color: var(--text-color);
+}
+
+.title {
+  font-size: 13px;
+  color: red;
+  font-weight: 500px;
+}
+
+.desc {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.categories {
+  display: flex;
+  background-color: var(--section-background);
+  align-items: center;
+  border-radius: 30px;
+}
+
+.category {
+  padding: 10px 15px 10px 13px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color);
+  opacity: 0.6;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+    transition: 0.7s;
+  }
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+.grid {
+  margin-top: 120px;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  grid-row-gap: 66.5px;
+}
+
+.products {
+  background-color: var(--section-background);
+  padding: 20px;
+  height: 460px;
+  border-radius: 30px;
+  box-shadow: 10px 5px 15px 5px rgba(0, 0, 0, 0.1);
+  &:hover {
+    transform: translateY(-3px);
+    transition: 0.8s;
+    border-radius: 20px;
+  }
+}
+
+.discountAndImage {
+  background-color: #fff;
+  border: 0.93px solid #ededed;
+  padding: 15px;
+  border-radius: 22px;
+  transform: translateY(-19%);
+  height: 55%;
+}
+
+.discountAndComparisor {
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount {
+  background-color: red;
+  padding: 7px;
+  border-radius: 9px;
+  font-size: 13px;
+}
+
+.comparisor {
+  background: #fff;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 30px;
+  box-shadow: 0 9px 25px 0 #00000017;
+  transition: 0.2s;
+  &:hover {
+    background-color: #ff7d7d;
+    transition: 0.3s;
+  }
+}
+
+.productImage {
+  max-width: 100%;
+}
+
+.text {
+  margin-top: -50px;
+  height: 90px;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.product_description {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.prices {
+  display: flex;
+  gap: 20px;
+  width: 246px;
+}
+
+.price {
+  font-size: 18px;
+  margin-top: 17px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.border {
+  border-left: 1px solid #dedede;
+}
+
+.monthCount {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.pricePerMonth {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cardButton {
+  display: flex;
+  background-color: var(--card-button-background);
+  padding: 10px;
+  border-radius: 13px;
+  align-items: center;
+  width: 170px;
+  &:hover {
+    background-color: #ea2427;
+    transition: 0.4s;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.cardText {
+  font-size: 14px;
+  margin-left: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.favourite {
+  background-color: var(--card-button-background);
+  padding: 10px;
+  border-radius: 13px;
+  align-items: center;
+  &:hover {
+    transition: 0.4s;
+    background-color: #ea2427;
+    cursor: pointer;
+  }
+}
