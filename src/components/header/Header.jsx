@@ -13,7 +13,6 @@ import Search from "@/assets/images/Search";
 const Header = () => {
   return (
     <header>
-      {/* Первая часть */}
       <div className={styles.topSection}>
         <div className={styles.leftPart}>
           <a
@@ -59,11 +58,9 @@ const Header = () => {
           <Theme />
         </div>
       </div>
-
-      {/* Вторая часть */}
       <div className={styles.bottomSection}>
         <div className={styles.logo}>
-          <a href="http://localhost:3000/">
+          <a href="https://baku-electronics-ten.vercel.app/">
             <Image
               alt="be_logo"
               src={be_logo}
