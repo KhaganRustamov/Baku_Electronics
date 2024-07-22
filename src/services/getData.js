@@ -2,15 +2,15 @@ import axios from "axios";
 
 export const getSliders = async () => {
   const response = await axios.get("https://api.b-e.az/task/big-sliders");
-
   if (!response.data) throw new Error("Unable to fetch data.");
-
   return response.data.map((item) => {
     return {
       image: item.image,
     };
   });
 };
+
+
 
 export const getProducts = async () => {
   const response = await axios.get("https://api.b-e.az/task/special-offer");
