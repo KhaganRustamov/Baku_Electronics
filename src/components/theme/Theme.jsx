@@ -12,7 +12,6 @@ const Theme = () => {
 
   return (
     <div className={styles.container} onClick={toggle}>
-      <div className={styles.container}>
         <div className={styles.moon}>
           <Moon />
         </div>
@@ -23,7 +22,6 @@ const Theme = () => {
           className={styles.ball}
           style={mode === "dark" ? { left: "2px" } : { right: "2px" }}
         ></div>
-      </div>
     </div>
   );
 };
