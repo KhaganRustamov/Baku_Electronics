@@ -60,7 +60,7 @@ const Header = () => {
       </div>
       <div className={styles.bottomSection}>
         <div className={styles.logo}>
-          <a href="https://baku-electronics-ten.vercel.app/">
+          <a href="#">
             <Image
               alt="be_logo"
               src={be_logo}
